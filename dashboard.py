@@ -836,7 +836,7 @@ def show_farm_analysis(farm_data, farm_name, global_nut):
                 st.image(image, use_container_width=True)
                 st.markdown("""
                 <div class="graph-caption">
-                    <b>Figure 1:</b> This visual demonstrates the tangible impact of Variable Rate Application on field homogenization and nutrient optimization over the 10-year period. By directly comparing initial diagnoses with resampling data, we validate the agronomic and economic benefits of the Be Api methodology.
+                    <b>Figure 1:</b> we validate the agronomic and economic benefits of the Be Api methodology.
                 </div>
                 """, unsafe_allow_html=True)
             except Exception as e:
@@ -847,3 +847,4 @@ def show_farm_analysis(farm_data, farm_name, global_nut):
 if __name__ == "__main__":
 
     main()
+
