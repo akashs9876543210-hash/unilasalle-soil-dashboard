@@ -153,7 +153,7 @@ def load_and_prepare_data(file_path=None):
     return farms_data
 
 @st.cache_data
-def load_faostat_data(file_name="filtered_FAOST_dataset.zip"):
+def load_faostat_data(file_name="tiny_FAOST_dataset.csv"):
     possible_paths = [
         file_name, 
         r"C:\Anaconda final AKASH\phython\filtered_FAOST_dataset.csv",
@@ -845,4 +845,5 @@ def show_farm_analysis(farm_data, farm_name, global_nut):
             st.warning(f"⚠️ Could not find '{image_filename}'. Please ensure you have downloaded the screenshot from your chat/email and saved it directly in the 'U:\\BE API project\\' or 'C:\\Anaconda final AKASH\\' folder.")
 
 if __name__ == "__main__":
+
     main()
