@@ -528,7 +528,7 @@ def main():
         <strong>Farms:</strong> MAHAUT & COTTARD (2 farms max) | <strong>Period:</strong> 2014 → 2024 (10 years)<br>
         <strong>Analysis:</strong> Descriptive (NO modeling - insufficient farms) | pH, P₂O₅, K₂O, MgO, CaO, K₂O/MgO, CEC, OM</p>
         <p><strong>Partnership:</strong> UniLaSalle & be Api & bioline</p>
-        <p class="presenters">👨‍🔬 Presenters: Akash Subbaiah & Monika Mariebernard</p>
+        <p class="presenters">👨‍🔬 Presenter: Akash Subbaiah </p>
     </div>
     """, unsafe_allow_html=True)
     
